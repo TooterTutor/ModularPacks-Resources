@@ -1,0 +1,61 @@
+{
+  "backpack_front_model": "modularpacks:backpack/modularpacks-backpack",
+  "backpack_back_model": "modularpacks:backpack/backpack-backmodel",
+  "backpack_item_model_id": "modularpacks:backpack/backpack",
+  "backpack_default_tint": 17610324,
+  "colors": [
+    {
+      "threshold": 1001,
+      "default_tint": 11100488
+    },
+    {
+      "threshold": 1002,
+      "default_tint": 16747872
+    },
+    {
+      "threshold": 1003,
+      "default_tint": 14540253
+    },
+    {
+      "threshold": 1004,
+      "default_tint": 16761654
+    },
+    {
+      "threshold": 1005,
+      "default_tint": 6936575
+    },
+    {
+      "threshold": 1006,
+      "default_tint": 4473924
+    }
+  ],
+  "slots": 5,
+  "modules": [
+    "anvil",
+    "blasting",
+    "crafting",
+    "everlasting",
+    "feeding",
+    "jukebox",
+    "magnet",
+    "restock",
+    "smelting",
+    "smithing",
+    "smoking",
+    "stonecutter",
+    "fluidtank",
+    "experiencetank",
+    "pump",
+    "exppump",
+    "quiver",
+    "void",
+    "ironstack",
+    "goldstack",
+    "diamondstack",
+    "netheritestack"
+  ],
+  "minecraft_item_targets": {
+    "player_head": "assets/minecraft/items/player_head.json",
+    "air": "assets/minecraft/items/air.json"
+  }
+}

@@ -1,0 +1,130 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Shared medallion base for display and texture defaults",
+	"texture_size": [
+		64,
+		64
+	],
+	"textures": {
+		"particle": "modularpacks:item/medallions/blank",
+		"0": "modularpacks:item/medallions/blank",
+		"1_0": "modularpacks:item/medallions/blank",
+		"frame": "modularpacks:item/medallions/frame",
+		"backpack": "modularpacks:item/backpack/backpack-grayscale"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				65.5,
+				0,
+				0
+			],
+			"translation": [
+				0,
+				0,
+				-4
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [
+				68,
+				-180,
+				0
+			],
+			"translation": [
+				-6,
+				-9.25,
+				8.5
+			],
+			"scale": [
+				0.6,
+				0.6,
+				0.6
+			]
+		},
+		"firstperson_righthand": {
+			"rotation": [
+				19,
+				-15,
+				15
+			],
+			"translation": [
+				6.5,
+				-3.75,
+				-9
+			]
+		},
+		"firstperson_lefthand": {
+			"translation": [
+				80,
+				0,
+				0
+			]
+		},
+		"ground": {
+			"translation": [
+				0,
+				4.25,
+				-2.75
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"gui": {
+			"rotation": [
+				0,
+				168,
+				0
+			],
+			"translation": [
+				-0.25,
+				0.5,
+				0
+			],
+			"scale": [
+				0.75,
+				0.75,
+				0.75
+			]
+		},
+		"head": {
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"translation": [
+				0,
+				-16,
+				9.75
+			]
+		},
+		"fixed": {
+			"translation": [
+				0,
+				0,
+				-5
+			]
+		},
+		"on_shelf": {
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"translation": [
+				0,
+				0,
+				2.75
+			]
+		}
+	}
+}

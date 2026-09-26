@@ -1,0 +1,9 @@
+{
+  "parent": "modularpacks:medallions/pos2/pos2-backmodel",
+  "textures": {
+    "0": "modularpacks:item/medallions/quiver",
+    "1_0": "modularpacks:item/medallions/quiver",
+    "frame": "modularpacks:item/medallions/frame",
+    "backpack": "modularpacks:item/backpack/backpack-grayscale"
+  }
+}

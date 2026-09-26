@@ -1,0 +1,9 @@
+{
+	"parent": "modularpacks:medallions/pos1/pos1",
+	"textures": {
+		"0": "modularpacks:item/medallions/restock",
+		"1_0": "modularpacks:item/medallions/restock",
+		"frame": "modularpacks:item/medallions/frame",
+		"backpack": "modularpacks:item/backpack/backpack-grayscale"
+	}
+}

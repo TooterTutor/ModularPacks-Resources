@@ -1,0 +1,9 @@
+{
+  "parent": "modularpacks:medallions/pos5/pos5",
+  "textures": {
+    "0": "modularpacks:item/medallions/exppump",
+    "1_0": "modularpacks:item/medallions/exppump",
+    "frame": "modularpacks:item/medallions/frame",
+    "backpack": "modularpacks:item/backpack/backpack-grayscale"
+  }
+}

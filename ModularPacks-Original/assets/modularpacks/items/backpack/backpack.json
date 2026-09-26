@@ -1,0 +1,863 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "modularpacks:backpack/modularpacks-backpack",
+        "tints": [
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 0,
+            "default": 17610324
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 1,
+            "default": 17610324
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 2,
+            "default": 17610324
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 3,
+            "default": 17610324
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 4,
+            "default": 17610324
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 5,
+            "default": 17610324
+          }
+        ]
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "modularpacks.slot.0:anvil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-anvil"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:blasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-blasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:crafting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-crafting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:everlasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-everlasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:feeding",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-feeding"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:jukebox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-jukebox"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:magnet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-magnet"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:restock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-restock"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:smelting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-smelting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:smithing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-smithing"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:smoking",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-smoking"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:stonecutter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-stonecutter"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:fluidtank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-fluidtank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:experiencetank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-experiencetank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:pump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-pump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:exppump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-exppump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:quiver",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-quiver"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:void",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-void"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:ironstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-ironstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:goldstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-goldstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:diamondstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-diamondstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.0:netheritestack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos1/pos1-netheritestack"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "modularpacks.slot.1:anvil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-anvil"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:blasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-blasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:crafting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-crafting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:everlasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-everlasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:feeding",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-feeding"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:jukebox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-jukebox"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:magnet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-magnet"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:restock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-restock"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:smelting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-smelting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:smithing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-smithing"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:smoking",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-smoking"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:stonecutter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-stonecutter"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:fluidtank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-fluidtank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:experiencetank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-experiencetank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:pump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-pump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:exppump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-exppump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:quiver",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-quiver"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:void",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-void"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:ironstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-ironstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:goldstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-goldstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:diamondstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-diamondstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.1:netheritestack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos2/pos2-netheritestack"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          {
+            "when": "modularpacks.slot.2:anvil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-anvil"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:blasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-blasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:crafting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-crafting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:everlasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-everlasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:feeding",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-feeding"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:jukebox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-jukebox"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:magnet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-magnet"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:restock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-restock"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:smelting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-smelting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:smithing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-smithing"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:smoking",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-smoking"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:stonecutter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-stonecutter"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:fluidtank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-fluidtank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:experiencetank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-experiencetank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:pump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-pump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:exppump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-exppump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:quiver",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-quiver"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:void",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-void"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:ironstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-ironstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:goldstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-goldstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:diamondstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-diamondstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.2:netheritestack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos3/pos3-netheritestack"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          {
+            "when": "modularpacks.slot.3:anvil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-anvil"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:blasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-blasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:crafting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-crafting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:everlasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-everlasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:feeding",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-feeding"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:jukebox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-jukebox"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:magnet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-magnet"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:restock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-restock"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:smelting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-smelting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:smithing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-smithing"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:smoking",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-smoking"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:stonecutter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-stonecutter"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:fluidtank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-fluidtank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:experiencetank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-experiencetank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:pump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-pump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:exppump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-exppump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:quiver",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-quiver"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:void",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-void"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:ironstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-ironstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:goldstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-goldstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:diamondstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-diamondstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.3:netheritestack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos4/pos4-netheritestack"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "cases": [
+          {
+            "when": "modularpacks.slot.4:anvil",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-anvil"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:blasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-blasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:crafting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-crafting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:everlasting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-everlasting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:feeding",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-feeding"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:jukebox",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-jukebox"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:magnet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-magnet"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:restock",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-restock"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:smelting",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-smelting"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:smithing",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-smithing"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:smoking",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-smoking"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:stonecutter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-stonecutter"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:fluidtank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-fluidtank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:experiencetank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-experiencetank"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:pump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-pump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:exppump",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-exppump"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:quiver",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-quiver"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:void",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-void"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:ironstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-ironstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:goldstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-goldstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:diamondstack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-diamondstack"
+            }
+          },
+          {
+            "when": "modularpacks.slot.4:netheritestack",
+            "model": {
+              "type": "minecraft:model",
+              "model": "modularpacks:medallions/pos5/pos5-netheritestack"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

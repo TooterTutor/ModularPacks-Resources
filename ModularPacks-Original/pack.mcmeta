@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "min_format": 22,
+    "max_format": 88,
+    "description": "\u00a7fThe \u00a7b\u00a7lOfficial\u00a7r\u00a7f Base ModularPacks Resource Pack\n\u00a76Made by TooterTutor",
+    "pack_format": 22,
+    "supported_formats": [
+      22,
+      88
+    ]
+  }
+}
